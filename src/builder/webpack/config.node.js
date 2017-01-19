@@ -35,7 +35,7 @@ const sourceMapSupport = require.resolve("source-map-support/register")
 
 const requireSourceMapSupport = "require('" + sourceMapSupport + "');"
 
-export default (config: PhenomicConfig): WebpackConfig => {
+export default (config: PhenomicOldConfig): WebpackConfig => {
   const webpackConfig = commonWebpackConfig(config)
 
   return {
