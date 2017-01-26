@@ -17,11 +17,11 @@ lib
 **/__tests__/_output*
 
 # docs
-docs/**/*.mov
-docs/**/*.pxm
-docs/node_modules
-docs/dist
-docs/content/assets/showcases/*
+**/docs/dist
+**/docs/**/*.mov
+**/docs/**/*.pxm
+**/docs/node_modules
+**/docs/content/assets/showcases/*
 
 # phenomic-theme-base files to work on it
 themes/phenomic-theme-base/dist
