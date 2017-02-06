@@ -1,5 +1,3 @@
-// @flow
-
 import { createRoutes, formatPattern } from "react-router"
 import colors from "chalk"
 
